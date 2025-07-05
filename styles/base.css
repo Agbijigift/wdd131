@@ -13,9 +13,9 @@ span{
     text-align: center;
     background-color: #023047;
     height: 50px;
-    padding-top: 20px;
+    padding-top: 10px;
     color: white;
-    font-size: 30px;
+    font-size: 25px;
 }
 nav{
     display: flex;
