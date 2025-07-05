@@ -85,7 +85,16 @@ figcaption{
 .country{
     grid-column: 1/6;
     text-align: center;
+    
+    
+
+}
+.country h2{
     border-bottom: 1px solid black;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 10px;
+    box-sizing: border-box;
 
 }
 
