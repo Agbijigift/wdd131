@@ -45,10 +45,7 @@ h1{
 @media (max-width:600px) {
     
 
- .navigation a {
-	 display: none; 
-	
-}
+
 .navigation a {
 	display: none;
 	padding: 1rem;
