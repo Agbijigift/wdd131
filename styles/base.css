@@ -82,6 +82,7 @@ h1{
 }
 .p-image img{
     width: 150px;
+    height: auto;
 }
 figcaption{
     text-align: center;
@@ -111,6 +112,7 @@ figcaption{
 .flag img{
     padding-top: 100px;
     width: 200px;
+    height: auto;
 }
 .country-p{
     grid-column: 2/6;

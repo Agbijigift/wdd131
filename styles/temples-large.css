@@ -1,0 +1,46 @@
+@media (min-width: 600px) {
+   
+    nav{
+        display: flex;
+        justify-content: flex-end;
+        
+        
+        
+
+    }
+    a{
+        /* padding-left: 50px;
+        padding-right: 50px; */
+        margin: 50px;
+        box-sizing: border-box;
+        color: white;
+        text-decoration: none;
+        
+    }
+    .navigation a:hover {
+	background-color: #bbb;
+	color: #333;
+	font-weight: 700;
+}
+
+    
+
+    .temples{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    h2{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 35px;
+}
+#menu{
+    display: none;
+}
+
+
+    
+}
