@@ -11,7 +11,8 @@ img{
     width: 300px;
 }
 main{
-    display: block;
+    display: grid;
+	grid-template-columns: 1fr;
     
     
 }
