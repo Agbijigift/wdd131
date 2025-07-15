@@ -51,9 +51,11 @@ h2{
 .navigation a {
 	display: none;
 	padding: 1rem;
-	text-align: center;
+	text-align: right;
 	text-decoration: none;
-	color: #fff;
+	color: blue;
+	font-weight: bolder;
+	padding-right: 25px;
 }
 .navigation a:hover {
 	background-color: #bbb;
