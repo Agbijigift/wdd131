@@ -28,6 +28,11 @@ nav a{
     text-decoration: none;
     color: black;
 }
+nav a:hover {
+	background-color: white;
+	color: #333;
+	font-weight: 700;
+}
 
 main{
 
@@ -160,4 +165,10 @@ footer{
 	color: yellow;
 	font-weight: 700;
 	font-family: hebrew;
+}
+
+.foot-p{
+    color: white;
+    font-weight: bold;
+    padding-top: 10px;
 }

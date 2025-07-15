@@ -1,8 +1,13 @@
 
-const last = document.querySelector("#last");
-const p = document.querySelector(".footer-p");
+
+const footer = document.querySelector("footer");
+const copyright = document.createElement("P");
+const lastup = document.createElement("p");
 const today = new Date();
 const year = today.getFullYear();
-last.classList.add("highlight");
-last.innerHTML = `Last modification ${document.lastModified}`;
-p.innerHTML = `&copy; ${year} 🌹 Gift Agbiji 🌹 Nigeria`;
+lastup.innerText = `Last Modification ${document.lastModified}`
+copyright.innerText = `\u00A9 ${year} 🌹 Gift Agbiji 🌹 Nigeria`
+lastup.classList.add("highlight");
+copyright.classList.add("foot-p");
+footer.appendChild(copyright);
+footer.appendChild(lastup);
