@@ -129,12 +129,17 @@ footer{
   width: fit-content;
 }
 
-.weather-icon {
-  width: 30px;
-  height: 30px;
-  background-image: url('../images/weather.svg'); 
-  background-size: contain;
-  background-repeat: no-repeat;
-  margin-left: 10px;
+
+.weather-heading::after {
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url('../images/weather.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 8px;
+    vertical-align: middle;
 }
+
 }
