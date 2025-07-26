@@ -1,0 +1,58 @@
+
+
+ main, footer{
+    width: 400px;
+    margin: 0 auto;
+}
+
+
+
+img{
+    width: 400px;
+    height: 600px;
+    display: block;
+    margin-bottom: 50px;
+    background-color: black;
+    animation: fadeFromBlack 5s ease-in forwards;
+   
+    
+}
+@keyframes fadeFromBlack {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+    
+}
+
+
+
+h1{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+
+
+.highlight {
+	color: yellow;
+	font-weight: 700;
+	font-family: hebrew;
+    text-align: center;
+}
+footer{
+    background-color: black;
+
+}
+
+.foot-p{
+    color: white;
+    font-weight: bold;
+    padding-top: 30px;
+    text-align: center;
+
+}
