@@ -66,6 +66,10 @@ h2{
 .mob-view{
    grid-column: 4/6;
 }
+.wireframe p {
+   text-align: center;
+  font-weight: bold;
+}
 p, li{
    line-height: 40px;
 }
