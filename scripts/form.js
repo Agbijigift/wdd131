@@ -49,13 +49,20 @@ products.forEach(product =>{
 });
 
 
-    let count = localStorage.getItem("reviewCount");
+const reviewCount = document.querySelector(".reviewCount");
 
-    if (count === null) {
-      count = 1;
-    } else {
-      count = parseInt(count) + 1;
-    }
-    localStorage.setItem("reviewCount", count);
-    document.querySelector("reviewCount").textContent = `You have submitted ${count} review${count > 1 ? 's' : ''}.`;
+let count = Number(window.localStorage.getItem("count-ls")) || 0;
+
+
+if (count !== 0) {
+	reviewCount.textContent = count;
+} else {
+	reviewCount.textContent = `This is your first visit. 🥳 Welcome!`;
+}
+
+count++;
+
+localStorage.setItem("count-ls", count);
+
+
   
