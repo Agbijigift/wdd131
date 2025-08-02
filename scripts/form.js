@@ -47,3 +47,15 @@ products.forEach(product =>{
 
 
 });
+
+
+    let count = localStorage.getItem("reviewCount");
+
+    if (count === null) {
+      count = 1;
+    } else {
+      count = parseInt(count) + 1;
+    }
+    localStorage.setItem("reviewCount", count);
+    document.querySelector("reviewCount").textContent = `You have submitted ${count} review${count > 1 ? 's' : ''}.`;
+  
