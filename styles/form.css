@@ -63,6 +63,8 @@
     form input[type="radio"]
    {
     margin-right: 6px;
+    height: 24px;
+    width: 24px;
      }
      .dif{
         margin-bottom: 20px;
