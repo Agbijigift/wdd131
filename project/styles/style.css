@@ -166,7 +166,10 @@ footer{
 header{
 	height: 50px;
 }
-h1{
-	padding-top: 15px;
+
+.open a {
+	display: block;
+    z-index: 20;
 }
+
 }
