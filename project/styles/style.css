@@ -1,0 +1,166 @@
+:root{
+    --background-colour: #0a100d;
+}
+body{
+     font-family: "Roboto", sans-serif;;
+    /* padding-left: 50px;
+    padding-right: 50px;
+    margin: 0 auto; */
+}
+.hero{
+    position: relative;
+}
+#menu {
+	font-size: 1.5rem;
+	border: 0;
+	background: none;
+	color: #000;
+	position: absolute;
+	right: 1rem;
+    color: white;
+
+}
+
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before {
+	content: "❌";
+}
+
+section{
+    position: absolute;
+    left: 10px;
+    top: 50px;
+}
+.hero img{
+    width: 100%;
+    height: auto;
+}
+header{
+    
+    background-color: var(--background-colour);
+}
+h1{
+    text-align: center;
+    font-size: 20px;
+    font: bold;
+    color: #f24c00;
+    
+   
+    
+}
+section p{
+    text-align: center;
+    font-size: 10px;
+    color: #f24c00;
+}
+section .btn{
+    width: 100px;
+    text-align: center;
+    display: flex;
+    gap: 10px;
+     
+    padding-left: 100px; 
+}
+ section button{
+    padding: 5px;
+    border-radius: 6px;
+    background-color: #485696;
+    font-size: 6px;
+    color: white;
+    border: none;
+    
+}
+
+form{
+    text-align: center;
+} 
+nav a{
+    text-decoration: none;
+    /* padding-left: 50px;
+    padding-top: 30px;
+    color: white;
+     */
+}
+header img{
+    width: 200px;
+    height: auto;
+}
+.svg{
+    width: 50px;
+    height: 50px;
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+   
+    
+}
+.card{
+    background-color: #485696;
+    width: 100px;
+    height: auto;
+    border-radius: 6px;
+    
+}
+.card img{
+    padding: 15px;
+    
+}
+.card p{
+    text-align: center;
+    font-size: 15px;
+}
+h2{
+    text-align: center;
+    font-size: 20px;
+    color: #f24c00;
+}
+
+
+footer{
+    background-color: var(--background-colour);
+}
+.highlight {
+	color: yellow;
+	font-weight: 700;
+	font-family: hebrew;
+    text-align: center;
+}
+.foot-p{
+    padding-top: 20px;
+    color: white;
+    text-align: center;
+}
+ 
+
+@media (max-width:768px) {
+    
+
+
+.navigation a {
+	display: none;
+	padding: 1rem;
+	text-align: right;
+	text-decoration: none;
+	color: blue;
+	font-weight: bolder;
+	padding-right: 25px;
+}
+.navigation a:hover {
+	background-color: #bbb;
+	color: #333;
+	font-weight: 700;
+}
+header{
+	height: 50px;
+}
+h1{
+	padding-top: 15px;
+}
+}

@@ -1,0 +1,89 @@
+@media (min-width: 768px) {
+
+#menu{
+    display: none;
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+    font: bold;
+    color: #f24c00;
+    
+   
+    
+}
+section p{
+    text-align: center;
+    font-size: 30px;
+    color: #f24c00;
+}
+section .btn{
+    width: 400px;
+    text-align: center;
+    
+    padding-left: 200px; 
+}
+nav{
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    
+}
+form{
+    text-align: center;
+}
+nav a{
+    text-decoration: none;
+    padding-left: 50px;
+    padding-top: 30px;
+    color: white;
+    
+}
+header img{
+    width: 300px;
+    height: auto;
+}
+
+
+.card-container{
+    display: flex;
+    
+    justify-content: space-around;
+    
+}
+.card{
+    background-color: #485696;
+    width: 250px;
+    height: auto;
+    border-radius: 6px;
+    
+}
+.card img{
+    padding: 60px;
+    color: rgb(252, 251, 251);
+}
+.card p{
+    text-align: center;
+    font-size: 30px;
+}
+h2{
+    text-align: center;
+    font-size: 50px;
+    color: #f24c00;
+}
+ section button{
+    padding: 10px;
+    border-radius: 6px;
+    background-color: #485696;
+    font-size: 20px;
+    color: white;
+    border: none;
+    
+}
+.svg{
+    width: 100px;
+    height: 100px;
+}
+
+    
+}
