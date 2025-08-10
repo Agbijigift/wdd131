@@ -15,7 +15,11 @@ body{
   
 }
 
-
+.navigation a:hover {
+	background-color: #bbb;
+	color: #333;
+	border-radius: 6px;
+}
 
 .hero{
     position: relative;
@@ -234,6 +238,7 @@ footer{
         display: none; 
         z-index: 20;
     }
+    
 
     .navigation a {
         color: white;
@@ -325,7 +330,7 @@ figcaption{
     border-radius: 4px;
 }
 .contact-info p{
-    font-size: 18px;
+    font-size: 15px;
     text-align: center;
 }
 
@@ -349,20 +354,20 @@ form input{
     margin-top: 20px;
     border-radius: 6px;
 }
-form input[type="text"]{
-    width: 50%;
 
-}
 form textarea{
     width: 50%;
     padding: 20px;
     margin-top: 10px;
-    margin-left: 150px;
+    
 }
 form input[type="submit"]{
     text-align: center;
-    width: 50%;
+    width: 80%;
     background-color: green;
     color: white;
     padding: 20px;
+}
+form{
+    width: 100%;
 }
