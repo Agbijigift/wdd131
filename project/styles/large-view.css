@@ -1,14 +1,20 @@
+:root{
+    --background-colour: #0a100d;
+    --secodary:#ebebeb;
+    --primary:#f24c00;
+    --accent:#c0c5da;
+    --header-color:#000000;
+}
 @media (min-width: 768px) {
   /* header large style   */
 
     #menu{
     display: none;
 }
-h1{
-    text-align: center;
+.home-p h1{
     font-size: 60px;
     font: bold;
-    color: #f24c00;
+    
     
    
     
@@ -45,7 +51,7 @@ header img{
 h2{
     text-align: center;
     font-size: 30px;
-    color: #f24c00;
+    color: var(--header-color);
 }
 
 .sec{
@@ -53,7 +59,7 @@ h2{
     left: 10px;
     top: 120px;
     width: 50%;
-    background-color: #ebebeb;
+    background-color: var(--secodary);
     box-shadow:   2px 2px 2px #c0c5da;
 }
 .sec h1{
@@ -62,7 +68,7 @@ h2{
 .sec p{
     text-align: center;
     font-size: 20px;
-    color: black;
+    color: var(--header-color);
 }
 .btn{
    
@@ -83,14 +89,14 @@ h2{
     border: none;
     border-radius: 6px;
     text-align: left; box-shadow:   2px 2px 2px #c0c5da;
-    color: #f24c00;
-     background-color: black;
+    color: white;
+     background-color: var(--background-colour);
      font-size: 20px;
 }
 .sec-2{
     display: flex;
     padding: 20px;
-    background-color: #ebebeb;
+    background-color: var(--secodary);
     
 }
 .sec-2 img{
@@ -121,11 +127,9 @@ h2{
     
 }
 .card{
-    background-color: #e3e4eb;
     width: 200px;
     height: auto;
-    
-    
+     
 }
 .card img{
     padding: 50px;
@@ -141,7 +145,7 @@ h2{
 .services h2{
     text-align: center;
     font-size: 30px;
-    color: #f24c00;
+    color: var(--header-color);
 }
 .services{
     background-color: #c0c5da;
@@ -163,13 +167,13 @@ h2{
     
 }
 .sec-3{
-    background-color: #ebebeb;
+    background-color: var(--secodary);
     padding-top: 20px;
 }
 
 .card2 p{
     text-align: center;
-    color: black;
+    color: var(--header-color);
     font-size: 15px;
 
     
@@ -198,8 +202,8 @@ h2{
 
 .contact-info h2{
     
-    padding: 0;
-    font-size: 40px;
+    padding: 20px;
+    font-size: 30px;
 }
 .contact-info img{
     width: 100px;
@@ -220,9 +224,8 @@ h2{
 }
 .con{
     width: 300px;
-    
-   
     margin: 20px;
+    height: 300px;
 } 
 /* about page style   */
 .about{
@@ -230,6 +233,12 @@ h2{
     grid-template-columns: 2fr 1fr;
     gap: 10px;
 }
+
+ .abt-head h1{
+    color: var(--header-color);
+    text-align: center;
+    font-size: 60px;
+ }
 .about img{
     width: 100%;
     height: auto;
@@ -247,6 +256,7 @@ h2{
 }
 .abt-head p{
     line-height: 30px;
+    font-size: 15px;
 }
 figure img{
     width: 300px;
