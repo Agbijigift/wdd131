@@ -266,8 +266,6 @@ figure img{
     display: flex;
     flex-wrap: wrap;
 }
-figcaption{
-    text-align: center;
-}
+
 
 }
