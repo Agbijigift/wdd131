@@ -305,12 +305,13 @@ li{
     text-align: center;
 }
 figure img{
-    width: 150px;
+    width: 100%;
     height: auto;
+   
 }
 .prof{
-    display: flex;
-    flex-wrap: wrap;
+    display: block;
+    
 }
 
 figcaption{
